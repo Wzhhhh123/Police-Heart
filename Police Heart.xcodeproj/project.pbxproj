@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952F4190253C69FD00AEE7FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952F418F253C69FD00AEE7FA /* AppDelegate.swift */; };
+		952F4192253C69FD00AEE7FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952F4191253C69FD00AEE7FA /* SceneDelegate.swift */; };
+		952F4194253C69FD00AEE7FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952F4193253C69FD00AEE7FA /* ViewController.swift */; };
+		952F4197253C69FD00AEE7FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952F4195253C69FD00AEE7FA /* Main.storyboard */; };
+		952F4199253C69FE00AEE7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952F4198253C69FE00AEE7FA /* Assets.xcassets */; };
+		952F419C253C69FE00AEE7FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952F419A253C69FE00AEE7FA /* LaunchScreen.storyboard */; };
+		952F41A7253C69FF00AEE7FA /* Police_HeartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952F41A6253C69FF00AEE7FA /* Police_HeartTests.swift */; };
+		952F41B2253C69FF00AEE7FA /* Police_HeartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952F41B1253C69FF00AEE7FA /* Police_HeartUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		952F41A3253C69FF00AEE7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952F4184253C69FD00AEE7FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952F418B253C69FD00AEE7FA;
+			remoteInfo = "Police Heart";
+		};
+		952F41AE253C69FF00AEE7FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952F4184253C69FD00AEE7FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952F418B253C69FD00AEE7FA;
+			remoteInfo = "Police Heart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		952F418C253C69FD00AEE7FA /* 警务心晴.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "警务心晴.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		952F418F253C69FD00AEE7FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		952F4191253C69FD00AEE7FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		952F4193253C69FD00AEE7FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		952F4196253C69FD00AEE7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		952F4198253C69FE00AEE7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		952F419B253C69FE00AEE7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		952F419D253C69FE00AEE7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952F41A2253C69FF00AEE7FA /* Police HeartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Police HeartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		952F41A6253C69FF00AEE7FA /* Police_HeartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Police_HeartTests.swift; sourceTree = "<group>"; };
+		952F41A8253C69FF00AEE7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952F41AD253C69FF00AEE7FA /* Police HeartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Police HeartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		952F41B1253C69FF00AEE7FA /* Police_HeartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Police_HeartUITests.swift; sourceTree = "<group>"; };
+		952F41B3253C69FF00AEE7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		952F4189253C69FD00AEE7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952F419F253C69FF00AEE7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952F41AA253C69FF00AEE7FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952F4183253C69FD00AEE7FA = {
+			isa = PBXGroup;
+			children = (
+				952F418E253C69FD00AEE7FA /* Police Heart */,
+				952F41A5253C69FF00AEE7FA /* Police HeartTests */,
+				952F41B0253C69FF00AEE7FA /* Police HeartUITests */,
+				952F418D253C69FD00AEE7FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		952F418D253C69FD00AEE7FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				952F418C253C69FD00AEE7FA /* 警务心晴.app */,
+				952F41A2253C69FF00AEE7FA /* Police HeartTests.xctest */,
+				952F41AD253C69FF00AEE7FA /* Police HeartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		952F418E253C69FD00AEE7FA /* Police Heart */ = {
+			isa = PBXGroup;
+			children = (
+				952F418F253C69FD00AEE7FA /* AppDelegate.swift */,
+				952F4191253C69FD00AEE7FA /* SceneDelegate.swift */,
+				952F4193253C69FD00AEE7FA /* ViewController.swift */,
+				952F4195253C69FD00AEE7FA /* Main.storyboard */,
+				952F4198253C69FE00AEE7FA /* Assets.xcassets */,
+				952F419A253C69FE00AEE7FA /* LaunchScreen.storyboard */,
+				952F419D253C69FE00AEE7FA /* Info.plist */,
+			);
+			path = "Police Heart";
+			sourceTree = "<group>";
+		};
+		952F41A5253C69FF00AEE7FA /* Police HeartTests */ = {
+			isa = PBXGroup;
+			children = (
+				952F41A6253C69FF00AEE7FA /* Police_HeartTests.swift */,
+				952F41A8253C69FF00AEE7FA /* Info.plist */,
+			);
+			path = "Police HeartTests";
+			sourceTree = "<group>";
+		};
+		952F41B0253C69FF00AEE7FA /* Police HeartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				952F41B1253C69FF00AEE7FA /* Police_HeartUITests.swift */,
+				952F41B3253C69FF00AEE7FA /* Info.plist */,
+			);
+			path = "Police HeartUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		952F418B253C69FD00AEE7FA /* Police Heart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952F41B6253C69FF00AEE7FA /* Build configuration list for PBXNativeTarget "Police Heart" */;
+			buildPhases = (
+				952F4188253C69FD00AEE7FA /* Sources */,
+				952F4189253C69FD00AEE7FA /* Frameworks */,
+				952F418A253C69FD00AEE7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Police Heart";
+			productName = "Police Heart";
+			productReference = 952F418C253C69FD00AEE7FA /* 警务心晴.app */;
+			productType = "com.apple.product-type.application";
+		};
+		952F41A1253C69FF00AEE7FA /* Police HeartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952F41B9253C69FF00AEE7FA /* Build configuration list for PBXNativeTarget "Police HeartTests" */;
+			buildPhases = (
+				952F419E253C69FF00AEE7FA /* Sources */,
+				952F419F253C69FF00AEE7FA /* Frameworks */,
+				952F41A0253C69FF00AEE7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952F41A4253C69FF00AEE7FA /* PBXTargetDependency */,
+			);
+			name = "Police HeartTests";
+			productName = "Police HeartTests";
+			productReference = 952F41A2253C69FF00AEE7FA /* Police HeartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		952F41AC253C69FF00AEE7FA /* Police HeartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952F41BC253C69FF00AEE7FA /* Build configuration list for PBXNativeTarget "Police HeartUITests" */;
+			buildPhases = (
+				952F41A9253C69FF00AEE7FA /* Sources */,
+				952F41AA253C69FF00AEE7FA /* Frameworks */,
+				952F41AB253C69FF00AEE7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952F41AF253C69FF00AEE7FA /* PBXTargetDependency */,
+			);
+			name = "Police HeartUITests";
+			productName = "Police HeartUITests";
+			productReference = 952F41AD253C69FF00AEE7FA /* Police HeartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		952F4184253C69FD00AEE7FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "魏志豪";
+				TargetAttributes = {
+					952F418B253C69FD00AEE7FA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					952F41A1253C69FF00AEE7FA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 952F418B253C69FD00AEE7FA;
+					};
+					952F41AC253C69FF00AEE7FA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 952F418B253C69FD00AEE7FA;
+					};
+				};
+			};
+			buildConfigurationList = 952F4187253C69FD00AEE7FA /* Build configuration list for PBXProject "Police Heart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 952F4183253C69FD00AEE7FA;
+			productRefGroup = 952F418D253C69FD00AEE7FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				952F418B253C69FD00AEE7FA /* Police Heart */,
+				952F41A1253C69FF00AEE7FA /* Police HeartTests */,
+				952F41AC253C69FF00AEE7FA /* Police HeartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		952F418A253C69FD00AEE7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952F419C253C69FE00AEE7FA /* LaunchScreen.storyboard in Resources */,
+				952F4199253C69FE00AEE7FA /* Assets.xcassets in Resources */,
+				952F4197253C69FD00AEE7FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952F41A0253C69FF00AEE7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952F41AB253C69FF00AEE7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		952F4188253C69FD00AEE7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952F4194253C69FD00AEE7FA /* ViewController.swift in Sources */,
+				952F4190253C69FD00AEE7FA /* AppDelegate.swift in Sources */,
+				952F4192253C69FD00AEE7FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952F419E253C69FF00AEE7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952F41A7253C69FF00AEE7FA /* Police_HeartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952F41A9253C69FF00AEE7FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952F41B2253C69FF00AEE7FA /* Police_HeartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		952F41A4253C69FF00AEE7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952F418B253C69FD00AEE7FA /* Police Heart */;
+			targetProxy = 952F41A3253C69FF00AEE7FA /* PBXContainerItemProxy */;
+		};
+		952F41AF253C69FF00AEE7FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952F418B253C69FD00AEE7FA /* Police Heart */;
+			targetProxy = 952F41AE253C69FF00AEE7FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		952F4195253C69FD00AEE7FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952F4196253C69FD00AEE7FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		952F419A253C69FE00AEE7FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952F419B253C69FE00AEE7FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		952F41B4253C69FF00AEE7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		952F41B5253C69FF00AEE7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		952F41B7253C69FF00AEE7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4LA5K8X59;
+				INFOPLIST_FILE = "Police Heart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Py.Police-Heart";
+				PRODUCT_NAME = "警务心晴";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		952F41B8253C69FF00AEE7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4LA5K8X59;
+				INFOPLIST_FILE = "Police Heart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Py.Police-Heart";
+				PRODUCT_NAME = "警务心晴";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		952F41BA253C69FF00AEE7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4LA5K8X59;
+				INFOPLIST_FILE = "Police HeartTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Py.Police-HeartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Police Heart.app/Police Heart";
+			};
+			name = Debug;
+		};
+		952F41BB253C69FF00AEE7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4LA5K8X59;
+				INFOPLIST_FILE = "Police HeartTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Py.Police-HeartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Police Heart.app/Police Heart";
+			};
+			name = Release;
+		};
+		952F41BD253C69FF00AEE7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4LA5K8X59;
+				INFOPLIST_FILE = "Police HeartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Py.Police-HeartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Police Heart";
+			};
+			name = Debug;
+		};
+		952F41BE253C69FF00AEE7FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4LA5K8X59;
+				INFOPLIST_FILE = "Police HeartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Py.Police-HeartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Police Heart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		952F4187253C69FD00AEE7FA /* Build configuration list for PBXProject "Police Heart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952F41B4253C69FF00AEE7FA /* Debug */,
+				952F41B5253C69FF00AEE7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952F41B6253C69FF00AEE7FA /* Build configuration list for PBXNativeTarget "Police Heart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952F41B7253C69FF00AEE7FA /* Debug */,
+				952F41B8253C69FF00AEE7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952F41B9253C69FF00AEE7FA /* Build configuration list for PBXNativeTarget "Police HeartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952F41BA253C69FF00AEE7FA /* Debug */,
+				952F41BB253C69FF00AEE7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952F41BC253C69FF00AEE7FA /* Build configuration list for PBXNativeTarget "Police HeartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952F41BD253C69FF00AEE7FA /* Debug */,
+				952F41BE253C69FF00AEE7FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 952F4184253C69FD00AEE7FA /* Project object */;
+}
